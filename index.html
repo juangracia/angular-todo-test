@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>My AngularJS App</title>
+        <link type="text/css" rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link type="text/css" rel="stylesheet" href="/dist/css/angularProject.css">
+    </head>
+    <body ng-app="todo">
+        <div class="my-menu" ng-controller="NavBarController">
+            <my-nav-bar brand="brand" links="links"></my-nav-bar>
+        </div>
+
+        <div class="row my-content">
+            <div class="col-sm-12" ui-view>
+
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src='/bower_components/jquery/dist/jquery.min.js'></script>
+        <script src='/bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
+        <script src='/bower_components/angular/angular.js'></script>
+        <script src='/bower_components/angular-ui-router/release/angular-ui-router.js'></script>
+        <script src="/dist/js/angularProject.js"></script>
+    </body>
+</html>

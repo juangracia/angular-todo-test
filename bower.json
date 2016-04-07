@@ -1,0 +1,24 @@
+{
+  "name": "angularprojectagilehub",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "juan"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.3",
+    "angular-ui-router": "~0.2.18",
+    "jquery": "^2.2.3"
+  }
+}

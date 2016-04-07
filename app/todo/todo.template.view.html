@@ -1,0 +1,16 @@
+<div class="todo-object">
+    <div class="todo-check">
+        <input type="checkbox" name="todo.id" value="1" ng-checked="todo.done">
+    </div>
+    <div class="todo-content">
+        <div class="todo-title">
+            {{todo.title}}
+        </div>
+        <div class="todo-description">
+            {{todo.description}}
+        </div>
+    </div>
+    <div class="todo-edit">
+        <i class="glyphicon glyphicon-pencil" ng-click="edit(todo)"></i>
+    </div>
+</div>

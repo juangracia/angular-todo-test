@@ -1,0 +1,52 @@
+body {
+  background: #EFEFEF;
+}
+
+.my-content {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.todo-object {
+  background: #FDFDFD;
+  margin: 10px auto;
+  width: 100%;
+  border: 2px solid #DDD;
+}
+
+.todo-object .todo-check {
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px 10px 10px 15px;
+  text-align: center;
+}
+
+.todo-object .todo-content {
+  width: 85%;
+  right: 0;
+  text-indent: 2%;
+  display: inline-block;
+  border-left: 2px solid #DDD;
+}
+
+.todo-object .todo-content .todo-title {
+  color: #33A;
+  font-weight: bold;
+  border-bottom: 1px solid #DDD;
+}
+
+.todo-object .todo-edit {
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px 0 0 2%;
+}
+
+.todo-object .todo-edit i {
+  cursor: pointer;
+}
